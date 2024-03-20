@@ -10,7 +10,7 @@ const UserSignup = ({ onSignup }) => {
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [error, setError] = useState(null);
-  const [signupSuccess, setSignupSuccess] = useState(false);
+  // const [signupSuccess, setSignupSuccess] = useState(false);
   const navigate = useNavigate();
 
   const handleSignup = async () => {
